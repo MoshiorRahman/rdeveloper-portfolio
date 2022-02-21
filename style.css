@@ -9,7 +9,7 @@ h1{
     color: orange;
 }
 section{
-    display: flex;
+    
     margin-bottom: 150px;
 }
 .half-width{
@@ -29,11 +29,16 @@ section{
     border-radius: 5px;
 }
 .top-banner{
+    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 .dream-big{
+    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.flexible-container{
+    display: flex;
 }
